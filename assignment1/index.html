@@ -36,6 +36,10 @@
              placeholder="list comma separated dishes you usually have for lunch"
              class="form-control" ng-class="{green: green, red: red}" ng-model="items">
          </div>
+         <div>
+             **PLEASE NOTE EMPTY ITEMS ARE NOT COUNTED**
+         </div>
+         <br/>
          <div class="form-group">
              <button class="btn btn-default" ng-click="getLunchMessage()">Check If Too Much</button>
          </div>
