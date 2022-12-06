@@ -3,7 +3,7 @@
     angular.module("LunchCheck", [])
     .controller("LunchCheckController", LunchCheckController);
     
-    LunchController.$inject = ["$scope"];
+    LunchCheckController.$inject = ["$scope"];
     function LunchCheckController($scope){
         $scope.green = false;
         $scope.red = false;
